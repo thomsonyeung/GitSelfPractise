@@ -1,0 +1,13 @@
+data = [{'species': 'Esox lucius', 'length': 120, 'weight': 8.1, 'age': 3}, 
+        {'species': 'Esox lucius', 'length': 100, 'weight': 7.7, 'age': 2},
+        {'species': 'Esox lucius', 'length': 110, 'weight': 7.9, 'age': 2},
+        {'species': 'Cyprinus carpio', 'length': 56, 'weight': 8.3, 'age': 13},
+        {'species': 'Cyprinus carpio', 'length': 36, 'weight': 7.9, 'age': 23},
+        {'species': 'Cyprinus carpio', 'length': 46, 'weight': 8.1, 'age': 13},
+        {'species': 'Salmo trutta', 'length': 40, 'weight': 7.5, 'age': 5},
+        {'species': 'Salmo trutta', 'length': 38, 'weight': 7.4, 'age': 4},
+        {'species': 'Oncorhynchus mykiss', 'length': 42, 'weight': 7.6, 'age': 5},
+        {'species': 'Salmo salar', 'length': 44, 'weight': 7.7, 'age': 5}]
+
+df = pd.DataFrame(data)
+df
